@@ -25,7 +25,8 @@ label {
     text-align: center;
     width: 80%;
     padding: 5px;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
     color: white;
     text-shadow: 1px 1px 2px gold;
     margin: 10px;   
@@ -91,7 +92,7 @@ label {
   }
   button{
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     padding: 5px 10px;
     color: wheat;
     text-shadow: 2px 2px 2px black;
