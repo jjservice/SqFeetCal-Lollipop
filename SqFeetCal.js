@@ -3,9 +3,9 @@ function calculateSquareFeet() {
     const width = parseFloat(document.getElementById("width").value);
   
     if (isNaN(length) || isNaN(width)) {
-      document.getElementById("result").textContent = "Please Enter valid numbers.";
+      document.getElementById("result").textContent = "Enter valid numbers!";
     } else {
       const squareFeet = length * width;
-      document.getElementById("result").textContent = `Square footage: ${squareFeet}`;
+      document.getElementById("result").textContent = `Sq footage: ${squareFeet}`;
     }
   }
