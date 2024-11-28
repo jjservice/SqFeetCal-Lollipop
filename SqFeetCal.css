@@ -167,3 +167,17 @@ label {
     cursor: pointer;
 
   }
+
+  @media (min-width: 768px){
+    body{
+      padding: 40px 0;
+    }
+    #container{
+      margin: 0% auto;
+      width: 600px;
+    }
+    .homebtn{
+      width: 50px;
+      opacity: 90%;
+    }
+  }
