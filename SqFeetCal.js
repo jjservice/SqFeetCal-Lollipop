@@ -9,3 +9,8 @@ function calculateSquareFeet() {
       document.getElementById("result").textContent = `Sq footage: ${squareFeet}`;
     }
   }
+
+  function Togglelight(){
+    const body = document.querySelector("body");
+    body.classList.toggle("light");
+  }
